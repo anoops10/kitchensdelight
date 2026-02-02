@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kitchen Delight Food Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Kitchen Delight</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+        <div class="cart-search">
+            <button class="cart-btn" id="cart-btn" aria-label="Cart">
+                🛒
+                <span class="cart-badge" id="cart-badge">0</span>
+            </button>
+            <!-- Removed search box -->
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Kitchen Delight</h1>
+        <p>Order your favorite Indian dishes for dining in or take away!</p>
+    </section>
+
+    
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h3>Categories</h3>
+            <ul>
+                <!-- <li><button class="category-btn active" data-category="all">All</button></li> -->
+                <li><button class="category-btn active" data-category="veg">Veg</button></li>
+                <li><button class="category-btn" data-category="nonveg">Non Veg</button></li>
+            </ul>
+        </aside>
+        <!-- Food List -->
+        <section class="food-list" id="food-list">
+            <!-- Food cards will be injected by JS -->
+        </section>
+    </div>
+
+
+    <!-- About Us Section -->
+    <section id="about-us" class="about-us-section">
+        <div class="about-container">
+            <h2>About Us</h2>
+            <p>
+                <strong>Kitchen Delight</strong> is a family-owned restaurant serving authentic Indian cuisine for over 20
+                years.
+                Our chefs use traditional recipes and the freshest ingredients to bring you the true flavors of India.
+                Whether you dine in or take away, we promise a warm atmosphere and delicious food, from spicy curries to
+                mouth-watering tandoori dishes.
+                Thank you for making us your favorite spot for Indian food!
+            </p>
+            <ul>
+                <li>Fresh, high-quality ingredients</li>
+                <li>Wide variety of vegetarian and non-vegetarian dishes</li>
+                <li>Comfortable dine-in experience & fast take away</li>
+                <li>Open daily: 11am – 11pm</li>
+                <li>Contact: +91-12345-67890 | Address: Main Road, Your City</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Kitchen Delight. All rights reserved.
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
